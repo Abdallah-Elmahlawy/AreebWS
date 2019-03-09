@@ -7,5 +7,15 @@ target 'AreebWS' do
 
   # Pods for AreebWS
   pod 'SwiftLint'
+  target 'AreebWSTests' do
+    
+    inherit! :search_paths
+    # Pods for testing
+  end
+  
+  target 'AreebWSUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
 
 end
